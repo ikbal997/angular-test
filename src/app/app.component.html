@@ -1,0 +1,9 @@
+<form [formGroup]="employeeForm">
+
+  <div class="form-group">
+    <label class="form-control-label" for="input-username">First Name</label>
+    <input type="text" nz-input [formControlName]="'firstName'" class="form-control form-control-alternative"
+      placeholder="First Name">
+  </div>
+  <button>save</button>
+</form> 
